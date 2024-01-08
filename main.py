@@ -1,4 +1,5 @@
 import streamlit as st
+st.set_page_config(layout="wide")
 
 col1, col2 = st.columns(2)
 
@@ -8,6 +9,7 @@ with col1:
 with col2:
     st.title("Dina Butko")
     content = """
-    Hi, i am Dina! I am QA Engineer. 
+    Hi, i am Dina! 
     """
-    st.write(content)
+    #st.write(content)
+    st.info(content)
